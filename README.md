@@ -16,11 +16,11 @@ The app allows the user to add, edit, search, and delete trips.
 ## Screens for activites in the app
 
 ### Main Screen
-<img src="screens/main.jpg" width="300">
+<img src="medea/main_Activity.png" width="300">
 
 ### Trip Details
 <img src="medea/Trip_Datails.png" width="300">
 
 ### Add / Edit Trip
-<img src="screens/form.jpg" width="300">
+<img src="medea/Add_Activity.png" width="300">
 
