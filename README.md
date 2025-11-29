@@ -19,7 +19,7 @@ The app allows the user to add, edit, search, and delete trips.
 <img src="screens/main.jpg" width="300">
 
 ### Trip Details
-<img src="medea/Trip_Details.png" width="300">
+<img src="medea/Trip_Datails.png" width="300">
 
 ### Add / Edit Trip
 <img src="screens/form.jpg" width="300">
