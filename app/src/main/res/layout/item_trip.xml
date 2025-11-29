@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="8dp">
+    <!-- Created by Mahmoud Kafafi 1221974 -->
+
+    <TextView
+        android:id="@+id/tvTripTitleRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paris Trip"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTripDateRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10-12-2025"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvTripPlacesRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eiffel Tower, Louvre..."
+        android:textSize="13sp"
+        android:textColor="#888888"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>

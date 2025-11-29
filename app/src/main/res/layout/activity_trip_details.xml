@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Created by Mahmoud Kafafi 1221974 -->
+
+    <TextView
+        android:id="@+id/tvDetailHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Dark_Brown"
+        android:padding="16dp"
+        android:text="Trip Details"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/ivDetailImage"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tripdetailsback"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/tvDetailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trip Title"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvDetailDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trip Date"
+                android:textSize="16sp"
+                android:textColor="#555555"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvDetailType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type: Tourism"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvDetailImportant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Important: Yes"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvDetailNeedHotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Need hotel: No"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Places to Visit:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/tvDetailPlaces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Places..."
+                android:textSize="16sp"
+                android:layout_marginTop="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp">
+
+                <Button
+                    android:id="@+id/btnBackToMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/Medium_Brown"
+                    android:text="Back to Main" />
+
+                <Button
+                    android:id="@+id/btnEditTrip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Trip"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/Medium_Brown"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnDeleteTrip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Delete Trip"
+                    android:backgroundTint="@color/Medium_Brown"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

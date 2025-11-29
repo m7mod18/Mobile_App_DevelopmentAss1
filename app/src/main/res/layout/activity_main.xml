@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Created by Mahmoud Kafafi 1221974 -->
+
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Coffee_Brown"
+        android:padding="16dp"
+        android:text="Trip Planner"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By: Mahmoud Kafafi"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@color/Medium_Brown"
+
+        android:padding="4dp"/>
+
+    <ImageView
+        android:id="@+id/ivTripImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/appbackground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <EditText
+            android:id="@+id/etSearchTrips"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Search trips by title..."
+            android:padding="8dp"
+             />
+
+        <Button
+            android:id="@+id/btnSearchTrips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/Medium_Brown"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnClearSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:backgroundTint="@color/Medium_Brown"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTripsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <Button
+        android:id="@+id/btnAddTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Trip"
+        android:backgroundTint="@color/Medium_Brown"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp" />
+
+</LinearLayout>
